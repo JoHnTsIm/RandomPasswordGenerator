@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background-color: #333;
+}
+
+#content_holder {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 240px;
+    text-align: center;
+    width: 800px;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #666;
+    box-shadow: 1px 1px 10px 1px rgb(224, 224, 85);
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+    display: block;
+    color: rgb(99, 162, 192);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    text-shadow: 3px 3px 5px #111;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+input {
+    font-size: 25px;
+    width: 80%;
+    box-shadow: 1px 1px 5px 1px #333;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    transition: 0.5s;
+    outline: none;
+    border: 5px solid rgb(226, 226, 226);
+}
+
+input[type=text]:focus {
+    border: 5px solid black;
+  }
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 35px;
+    box-shadow: 1px 1px 5px 1px #333;
+    background-color: rgb(224, 224, 85);
+    border: 0px;
+    border-radius: 10px;
+    font-family:monospace;
+    font-weight:bold;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+button:hover {
+    background-color: #333;
+    color: white;
+}
+
+select {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    margin-bottom: 40px;
+    border: 0px;
+    border-radius: 10px;
+    font-family:monospace;
+    font-weight:bold;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 5px 1px #333;
+    margin-right: 15px;
+}
+
+select:hover {
+    color: white;
+    background-color: #333;
+}
+
+label {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 3px 3px 5px #111;
+}
